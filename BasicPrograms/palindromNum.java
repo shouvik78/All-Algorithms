@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package BasicPrograms;
 
 import java.util.Scanner;
@@ -30,3 +31,15 @@ public class palindromNum {
 	}
 
 }
+=======
+package BasicPrograms;
+
+public class palindromNum {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+>>>>>>> 99ce2e759736bf2519d65ffc105ce28a6c5cbeab
