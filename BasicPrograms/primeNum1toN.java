@@ -5,6 +5,7 @@ public class primeNum1toN {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		@SuppressWarnings("resource")
 		Scanner sc=new Scanner(System.in);
 		System.out.println("please enter the number upto which you want prime number");
 		int n=sc.nextInt();

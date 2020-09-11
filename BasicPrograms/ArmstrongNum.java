@@ -2,31 +2,31 @@ package BasicPrograms;
 
 import java.util.Scanner;
 
-public class palindromNum {
+public class ArmstrongNum {
 
 	public static void main(String[] args) {
-		int rem,sum=0,temp;
-		System.out.println("Please enter a number");
+		// TODO Auto-generated method stub
+
 		@SuppressWarnings("resource")
 		Scanner sc=new Scanner(System.in);
+		System.out.println("Please enter a number");
 		int n=sc.nextInt();
+		int rem,sum=0,temp;
 		temp=n;
 		while(n>0)
 		{
 			rem=n%10;
-			sum=(sum*10)+rem;
+			sum=sum+(rem*rem*rem);
 			n=n/10;
-			//System.out.println("Value of n "+n);
 		}
-		if(temp==sum)
+		if(sum==temp)
 		{
-			System.out.println("Palindrom");
+			System.out.println("Armstrong");
 		}
 		else
 		{
-			System.out.println("Not Palindrom");
+			System.out.println("Not Armstrong");
 		}
-
 	}
 
 }
